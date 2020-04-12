@@ -17,8 +17,8 @@ namespace Project.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "iniciando Projeto MVC";
+            ViewData["Text"] = "Testando inserção de texto";
             return View();
         }
 
