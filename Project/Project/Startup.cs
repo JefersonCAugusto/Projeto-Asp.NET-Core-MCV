@@ -38,6 +38,8 @@ namespace Project
 
             services.AddDbContext<ProjectContext>(options =>
                     options.UseMySql(Configuration.GetConnectionString("ProjectContext"), builder => builder.MigrationsAssembly("Project")));
+        
+                    
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
